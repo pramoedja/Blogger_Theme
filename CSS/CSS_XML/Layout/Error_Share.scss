@@ -1,0 +1,36 @@
+
+/* error and search */
+.status-msg-wrap {
+    font-size:120%;
+    font-weight:bold;
+    width:100%;
+    margin:20px auto;
+    }
+    .status-msg-body {
+    padding:20px 2%;
+    width:96%;
+    }
+    .status-msg-border {
+    border:1px solid #e5e5e5;
+    opacity:10;
+    width:auto;
+    }
+    .status-msg-bg {
+    background-color:#ffffff;
+    }
+    .status-msg-hidden {
+    padding:20px 2%;
+    }
+    .tabs-content .widget ul li:before, .sidebar ul li:before, #bottombar ul li:before {
+    content:"\f061";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right:4px;
+    color:#666;
+    }
+    #ArchiveList ul li:before {
+    content:"" !important;
+    padding-right:0px !important;
+    }

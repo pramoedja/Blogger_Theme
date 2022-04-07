@@ -1,0 +1,27 @@
+
+/* CONTENT WRAPPER */
+#content-wrapper {
+    background-color:transparent;
+    background-image:url(http://2.bp.blogspot.com/-yNE4A_H3C2o/U1E6RPYNEpI/AAAAAAAADRQ/UOP1mUKaxGE/s1600/line.png);
+    background-repeat:repeat-x;
+    background-position:top center;
+    margin:0 auto;
+    padding:5px 0 0;
+    word-wrap:break-word;
+    }
+    .largebanner {
+    background:#fff;
+    border-right:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    border-left:1px solid #e5e5e5;
+    }
+    .largebanner .widget {
+    padding:15px 14px;
+    overflow:hidden;
+    }
+    .largebanner img, .largebanner iframe{
+    display:block;
+    max-width:100%;
+    border:none;
+    overflow:hidden;
+    }

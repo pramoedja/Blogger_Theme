@@ -1,0 +1,40 @@
+
+/* HEADER WRAPPER */
+#header-wrapper {
+    margin:0 auto;
+    overflow:hidden;
+    }
+    .header {
+    float:left;
+    width:25.7%;
+    max-width:257px;
+    margin:15px 0;
+    }
+    .header h1.title,.header p.title {
+    font:normal bold 24px Fjalla One, Arial, Helvetica, sans-serif;
+    margin:0 0 0 0;
+    text-transform:uppercase;
+    }
+    .header .description {
+    color:#555555;
+    }
+    .header a {
+    color:#333333;
+    }
+    .header a:hover {
+    color:#999;
+    }
+    .header img {
+    display:block;
+    }
+    .header-right {
+    float:right;
+    padding:0;
+    overflow:hidden;
+    margin:15px 0;
+    width:72.8%;
+    max-width:728px;
+    }
+    .header-right img {
+    display:block;
+    }

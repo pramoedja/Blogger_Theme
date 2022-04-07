@@ -1,0 +1,43 @@
+
+/* Tab Menu */
+.set, .panel {
+    margin: 0 0;
+    }
+    .tabs .panel {
+    padding:0 0;
+    }
+    .tabs-menu {
+    border-bottom:3px solid #E73138;
+    padding: 0 0;
+    margin:0 0;
+    }
+    .tabs-menu li {
+    font:normal bold 12px Arial, sans-serif;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin: 0 3px 0 0;
+    padding:10px;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-bottom:none !important;
+    color:#333333;
+    cursor:pointer;
+    position:relative;
+    }
+    .tabs-menu .active-tab {
+    background:#E73138;
+    border:1px solid #E73138;
+    border-bottom:none !important;
+    color:#fff;
+    }
+    .tabs-content {
+    padding:10px 0;
+    }
+    .tabs-content .widget li {
+    float:none !important;
+    margin:5px 0;
+    }
+    .tabs-content .widget ul {
+    overflow:visible;
+    }

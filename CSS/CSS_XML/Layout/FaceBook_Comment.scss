@@ -1,0 +1,24 @@
+
+/* facebook comments */
+.fbbox-comments {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    margin: 0 0 20px;
+    }
+    .fb-comments{width: 100% !important;}
+    .fb-comments iframe[style]{width: 100% !important;}
+    .fb-like-box{width: 100% !important;}
+    .fb-like-box iframe[style]{width: 100% !important;}
+    .fb-comments span{width: 100% !important;}
+    .fb-comments iframe span[style]{width: 100% !important;}
+    .fb-like-box span{width: 100% !important;}
+    .fb-like-box iframe span[style]{width: 100% !important;
+    }
+    .rich-snippet {
+    padding:10px;
+    margin:15px 0 0;
+    border:3px solid #eee;
+    font-size:12px;
+    }

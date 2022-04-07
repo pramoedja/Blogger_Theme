@@ -1,0 +1,74 @@
+
+/* NAVIGATION MENU */
+.menu {
+font:normal normal 12px Arial, sans-serif;
+padding:0 0;
+background:#ffffff;
+margin:0 auto;
+height:38px;
+border:1px solid #e5e5e5;
+overflow:hidden;
+}
+.nav-menu {
+list-style-type:none;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+.nav-menu li {
+display:block;
+float:left;
+line-height:38px;
+margin:0 0 0 0;
+padding:0 0 0 0;
+border-right:1px solid #e5e5e5;
+}
+.nav-menu li a {
+background:#ffffff;
+color:#666666;
+display:block;
+padding:0 8px;
+}
+.nav-menu li a:hover {
+background:#f5f5f5;
+}
+ul.nav-social {
+height:38px;
+margin:0 0 0 0;
+padding:0 0;
+float:right;
+}
+ul.nav-social li {
+display:inline-block;
+list-style-type:none;
+float:right;
+margin:0 0;
+padding:0 0;
+border-right:none;
+border-left:1px solid #e5e5e5;
+}
+ul.nav-social li a {
+display:inline-block;
+line-height:38px;
+height:38px;
+padding:0 8px;
+margin:0 0 0 0;
+color:#666666;
+}
+ul.nav-social li a i {
+line-height:38px;
+}
+ul.nav-social li a:hover {
+color:#fff;
+}
+ul.nav-social li a.fcb:hover {
+background:#3B5A9B;
+}
+ul.nav-social li a.gpl:hover {
+background:#DD4B39;
+}
+ul.nav-social li a.twt:hover {
+background:#1BB2E9;
+}
+ul.nav-social li a.ytb:hover {
+background:#ED3F41;
+}

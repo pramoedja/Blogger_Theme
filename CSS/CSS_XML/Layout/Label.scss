@@ -1,0 +1,39 @@
+
+/* label */
+.label-size-1,.label-size-2,.label-size-3,.label-size-4,.label-size-5 {
+    font-size:100%;
+    filter:alpha(100);
+    opacity:10
+    }
+    .cloud-label-widget-content{
+    
+    text-align:left
+    }
+    .label-size {
+    background:#E73037;
+    display:block;
+    float:left;
+    margin:0 3px 3px 0;
+    color:#ffffff;
+    font-size:11px;
+    text-transform:uppercase;
+    }
+    .label-size a,.label-size span{
+    display:inline-block;
+    color:#ffffff !important;
+    padding:6px 8px;
+    font-weight:bold;
+    }
+    .label-size:hover {
+    background:#333333;
+    }
+    .label-count {
+    white-space:nowrap;
+    padding-right:3px;
+    margin-left:-3px;
+    background:#333333;
+    color:#fff !important;
+    }
+    .label-size {
+    line-height:1.2
+    }

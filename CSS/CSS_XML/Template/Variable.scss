@@ -1,0 +1,129 @@
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd" value="#66bbdd"/>
+
+<Group description="Page Text" selector="body">
+    <Variable name="body.font" description="Font" type="font" default="normal normal 13px Arial, sans-serif" value="normal normal 13px Arial, sans-serif"/>
+    <Variable name="body.text.color" description="Main Text Color" type="color" default="#333333" value="#333333"/>
+</Group>
+
+<Group description="Main Backgrounds" selector=".body-fauxcolumns-outer">
+    <Variable name="body.background.color" description="Body Background" type="color" default="#dddddd" value="#dddddd"/>
+    <Variable name="wrapper.background.color" description="Wrapper Background" type="color" default="#f9f9f9" value="#f9f9f9"/>
+</Group>
+
+<Variable name="body.background" description="Body Background" type="background"color="#dddddd" default="$(color) none repeat scroll top left" value="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default="" value=""/>
+
+<Group description="Links" selector=".main-outer">
+    <Variable name="link.color" description="Link Color" type="color" default="#EE3322" value="#EE3322"/>
+    <Variable name="link.visited.color" description="Visited Color" type="color" default="#EE3322" value="#EE3322"/>
+    <Variable name="link.hover.color" description="Hover Color" type="color" default="#0072C6" value="#0072C6"/>
+</Group>
+
+<Group description="Blog Title" selector=".header h1.title, .header p.title">
+    <Variable name="header.font" description="Font" type="font" default="normal bold 24px Fjalla One, Arial, Helvetica, sans-serif" value="normal bold 24px Fjalla One, Arial, Helvetica, sans-serif"/>
+    <Variable name="header.text.color" description="Title Color" type="color" default="#333333"  value="#333333"/>
+</Group>
+
+<Group description="Blog Description" selector=".header .description">
+    <Variable name="description.text.color" description="Description Color" type="color" default="#555555" value="#555555"/>
+</Group>
+
+<Group description="Primary Navigation Menu" selector=".menu">
+    <Variable name="menu1.font" description="Font" type="font" default="normal normal 12px Arial, sans-serif" value="normal normal 12px Arial, sans-serif"/>
+    <Variable name="menu1.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="menu1.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+    <Variable name="menu1.hover.color" description="Hover Color" type="color" default="#f5f5f5" value="#f5f5f5"/>
+    <Variable name="menu1.border.color" description="Border Color" type="color" default="#e5e5e5" value="#e5e5e5"/>
+</Group>
+
+<Group description="Secondary Navigation Menu" selector="#nav">
+    <Variable name="menu.font" description="Font" type="font" default="normal bold 12px Arial, sans-serif" value="normal bold 12px Arial, sans-serif"/>
+    <Variable name="menu.background.color" description="Background Color" type="color" default="#333333" value="#333333"/>
+    <Variable name="menu.navigation.text.color" description="Text Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="menu.navigation.hover.color" description="Hover Color" type="color" default="#222222" value="#222222"/>
+    <Variable name="menu.navigation.border.color" description="Border Color" type="color" default="#E73138" value="#E73138"/>
+</Group>
+
+<Group description="Search Box" selector="#search-form">
+    <Variable name="input.background.color" description="Input Background Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="button.background.color" description="Button Background Color" type="color" default="#E73037" value="#E73037"/>
+    <Variable name="input.color" description="Input Color" type="color" default="#666666" value="#666666"/>
+    <Variable name="button.color" description="Button Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+
+<Group description="Post" selector=".post">
+    <Variable name="post.background.color" description="Background Color" type="color" default="#ffffff"  value="#ffffff"/>
+    <Variable name="post.border.color" description="Border Color" type="color" default="#e5e5e5"  value="#e5e5e5"/>
+</Group>
+
+<Group description="Post Title" selector="h2.post-title, .comments h4, h1.post-title">
+    <Variable name="post.title.font" description="Font" type="font" default="normal normal 20px Fjalla One, Helvetica, Arial, sans-serif" value="normal normal 20px Fjalla One, Helvetica, Arial, sans-serif"/>
+    <Variable name="post.title.color" description="Text Color" type="color" default="#EE3322" value="#EE3322"/>
+</Group>
+
+<Group description="Post Footer" selector=".post-info, span.lebel-thumb-footer">
+    <Variable name="post.footer.background.color" description="Background Color" type="color" default="transparent" value="transparent"/>
+    <Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+</Group>
+
+<Group description="Recent Post" selector=".recent-post-one-thumb .widget-content">
+    <Variable name="recentpost.background.color" description="Background Color" type="color" default="#ffffff"  value="#ffffff"/>
+    <Variable name="recentpost.border.color" description="Border Color" type="color" default="#e5e5e5"  value="#e5e5e5"/>
+</Group>
+
+<Group description="Recent Post Widget Title" selector=".recent-post-title h2">
+    <Variable name="recentpost.title.font" description="Title Font" type="font" default="normal bold 14px Arial, sans-serif" value="normal bold 14px Arial, sans-serif"/>
+    <Variable name="recentpost.title.text.color" description="Title Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="recentpost.title.background.color" description="Background Color" type="color" default="#E73138" value="#E73138"/>
+</Group>
+
+<Group description="Recent Post Title" selector="span.label-thumb-title">
+    <Variable name="recent.post.title.font" description="Font" type="font" default="normal normal 16px Fjalla One, Helvetica, Arial, sans-serif" value="normal normal 16px Fjalla One, Helvetica, Arial, sans-serif"/>
+    <Variable name="recent.post.title.color" description="Text Color" type="color" default="#EE3322" value="#EE3322"/>
+</Group>
+
+<Group description="Sidebar Widget Title" selector=".sidebar h2, .tabs-menu">
+    <Variable name="sidebar.title.font" description="Title Font" type="font" default="normal bold 12px Arial, sans-serif" value="normal bold 12px Arial, sans-serif"/>
+    <Variable name="sidebar.title.text.color" description="Title Color" type="color" default="#333333" value="#333333"/>
+    <Variable name="sidebar.title.border.color" description="Border Color" type="color" default="#E73138" value="#E73138"/>
+</Group>
+
+<Group description="Bottombar" selector="#bottombar">
+    <Variable name="bottombar.background.color" description="Background" type="color" default="#454545" value="#454545"/>
+    <Variable name="bottombar.color" description="Color" type="color" default="#dddddd" value="#dddddd"/>
+    <Variable name="bottombar.link.color" description="Link Color" type="color" default="#dddddd" value="#dddddd"/>
+    <Variable name="bottombar.hover.color" description="Hover Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="bottombar.border.color" description="Border Color" type="color" default="#e5e5e5" value="#e5e5e5"/>
+</Group>
+
+<Group description="Bottombar Widget Title" selector="#bottombar h2">
+    <Variable name="bottombar.title.font" description="Title Font" type="font" default="normal bold 13px Arial, sans-serif" value="normal bold 13px Arial, sans-serif"/>
+    <Variable name="bottombar.title.text.color" description="Title Color" type="color" default="#eeeeee" value="#eeeeee"/>
+    <Variable name="bottombar.title.border.color" description="Border Color" type="color" default="#eeeeee" value="#eeeeee"/>
+</Group>
+
+<Group description="Footer" selector="#footer-wrapper">
+    <Variable name="footer.background.color" description="Background" type="color" default="#333333" value="#333333"/>
+    <Variable name="footer.color" description="Color" type="color" default="#eeeeee" value="#eeeeee"/>
+    <Variable name="footer.link.color" description="Link Color" type="color" default="#eeeeee" value="#eeeeee"/>
+    <Variable name="footer.hover.color" description="Hover Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+
+<Group description="Read More" selector="a.readmore, .pagenavi, .label-size">
+    <Variable name="readmore.background.color" description="Background Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="readmore.color" description="Color" type="color" default="#333333" value="#333333"/>
+    <Variable name="readmore.border.color" description="Border Color" type="color" default="#dddddd" value="#dddddd"/>
+    <Variable name="readmore.hover.color" description="Hover Color" type="color" default="#aaaaaa" value="#aaaaaa"/>
+</Group>
+
+<Group description="Back to Top" selector="#back-to-top">
+    <Variable name="backtp.background.color" description="Background" type="color" default="#E73037" value="#E73037"/>
+    <Variable name="backtp.color" description="Color" type="color" default="#ffffff" value="#ffffff"/>
+</Group>
+
+<Group description="Label Cloud" selector=".label-size">
+    <Variable name="label.background.color" description="Background" type="color" default="#E73037" value="#E73037"/>
+    <Variable name="label.color" description="Color" type="color" default="#ffffff" value="#ffffff"/>
+    <Variable name="label.hover.color" description="Hover Color" type="color" default="#333333" value="#333333"/>
+    <Variable name="label.count.color" description="Label Count" type="color" default="#333333" value="#333333"/>
+</Group>

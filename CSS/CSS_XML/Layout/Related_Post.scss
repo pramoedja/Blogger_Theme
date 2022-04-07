@@ -1,0 +1,46 @@
+
+/* ==== Related Post Widget Start ==== */
+.related-post {
+    margin:15px 0 0;
+    border-top:1px solid #f0f0f0;
+    padding:15px 0 0;
+    }
+    .related-post h4 {
+    font-size:14px;
+    margin:0 0 .5em;
+    text-transform:uppercase;
+    }
+    .related-post-style-2 {
+    margin:0 0 0 0 !important;
+    padding:0 0 0 0 !important;
+    list-style:none;
+    }
+    .related-post-style-2 li {
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    }
+    .related-post-style-2 li {
+    padding:5px 0 !important;
+    border-top:1px solid #eee;
+    overflow:hidden;
+    }
+    .related-post-style-2 li:first-child {border-top:none}
+    .related-post-style-2 .related-post-item-thumbnail {
+    width:60px;
+    height:60px;
+    max-width:none;
+    max-height:none;
+    background-color:transparent;
+    border:none;
+    padding:0;
+    float:left;
+    margin:2px 8px 0 0;
+    }
+    .related-post-style-2 .related-post-item-title {
+    font:normal normal 16px Fjalla One, Helvetica, Arial, sans-serif;
+    }
+    .related-post-style-2 .related-post-item-summary {
+    display:block;
+    overflow:hidden;
+    }
+    .related-post-style-2 .related-post-item-more {}
